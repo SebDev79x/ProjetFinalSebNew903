@@ -1,0 +1,94 @@
+  <div id="rellax0" class="rellax"></div>
+                <div id="rellax1" data-rellax-speed="-8" class="rellax">Vous ignorez la valeur de votre jouet ou de votre jeu vidéo ?</div>
+                <div id="rellax2" data-rellax-speed="-5" class="rellax"><span class="valestim">Val'<span class="€">€</span>stim</span> est LA solution !</div>
+                <div id="rellax3" data-rellax-speed="-8" class="rellax"><a href="ajout-membre.php">Inscrivez-vous</a> & créez une annonce.</div>
+                <div id="rellax4" data-rellax-speed="-1" class="rellax">La commu <span class="valestim">Val'<span class="€">€</span>stim</span> vous donne une estimation de votre article.</div>
+                <div id="rellax5" data-rellax-speed="8" class="rellax">Avec Val'€stim, ne perdez plus un centime !</div>
+
+                <div class="box box1"></div>
+                <div class="box box2"></div>
+                <div class="box box3"></div>
+                <div class="box box4"></div>
+                <div class="box box5"></div>
+
+.rellax {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  margin: 0;
+  position: absolute;
+}
+#rellax1 {
+  top: 100px;
+  left: auto;
+  color: rgb(0, 0, 0);
+}
+#rellax2 {
+  top: 400px;
+  left: auto;
+  color: rgb(0, 0, 0);
+}
+#rellax3 {
+  top: 700px;
+  left: auto;
+  color: rgb(0, 0, 0);
+}
+#rellax4 {
+  top: 1000px;
+  left: auto;
+  color: rgb(0, 0, 0);
+}
+#rellax5 {
+  top: 1500px;
+  left: auto;
+  color: rgb(0, 0, 0);
+}
+
+.box {
+  position: absolute;
+}
+img {
+  max-width: 100%;
+
+
+
+.box1 {
+  z-index: -1;
+  width: 300px;
+  height: 300px;
+  top: 100px;
+  left: 100px;
+}
+.box2 {
+  z-index: -1;
+
+  width: 300px;
+  height: 300px;
+  top: 400px;
+  left: 1200px;
+  /*background-image: url('../img/lots.jpg');*/
+}
+.box3 {
+  z-index: -1;
+
+  width: 300px;
+  height: 300px;
+  top: 700px;
+  left: 100px;
+}
+.box4 {
+  z-index: -1;
+
+  width: 300px;
+  height: 300px;
+  top: 1000px;
+  left: 1400px;
+}
+.box5 {
+  z-index: -1;
+
+  width: 300px;
+  height: 300px;
+  top: 1300px;
+  left: 100px;
+}
+  

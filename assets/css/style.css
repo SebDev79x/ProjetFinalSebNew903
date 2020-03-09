@@ -1,0 +1,213 @@
+/*Mémo 
+Responsive Breakpoints, based on screen width:
+(xs) — screen width < 576px (This is the “default” tier)
+sm — screen width ≥ 576px
+md — screen width ≥ 768px
+lg — screen width ≥ 992px
+xl — screen width ≥ 1200px
+*/
+
+/*retirer les margin et padding par défaut des navigateurs*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-family: "Spectral", cursive;
+}
+h2{
+  border: 2px solid black;
+  background-color:rgb(238, 238, 186);
+}
+.thumbnail {
+  margin-top : 400px;
+  background-size: cover;
+  max-width: 20%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.listImages {
+  margin-top: 1300px;
+}
+
+.valestim {
+  font-family: "Chewy", cursive;
+}
+.€ {
+  color: rgb(250, 213, 6);
+  font-weight: bold;
+}
+
+/*#itemSubcategoryToy {
+  display: none;
+}*/
+/*CSS Modale*/
+.modal {
+  text-align: left;
+
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: black;
+}
+
+/* Contenu de la modale */
+.modal-content {
+  background-color: beige;
+  margin: auto;
+  padding: 20px;
+  width: 80%;
+}
+
+/* Bouton Fermer */
+.close {
+  color:black;
+  margin-bottom: 20px;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*Fin modale*/
+.bodyIndex {
+  background-color: beige;
+
+}
+.bodyMemberAccount,
+.bodyContact,
+.bodyAddMember,
+.bodyAnnounceMember,
+.bodyAddAnnounce,
+.bodyMembersList,
+.bodyListAnnounces,
+.bodyMemberProfile,
+.bodyConnectMember {
+  background-color: beige;
+}
+.navbar-brand {
+  font-size: 2em;
+}
+
+/*up*/
+
+/*NAVBAR*/
+
+/* tout ce qui concerne les items*/
+
+.bg-company-red {
+  background-color: rgb(238, 238, 186) !important;
+  border: 5px solid rgb(196, 207, 176);
+}
+
+/*Slider*/
+.sliderBox {
+  padding-top: 100px;
+}
+.slider {
+  overflow: hidden;
+  width: 400px;
+  height: 200px;
+  border: solid 2px #555;
+  padding: 0;
+  position: absolute;
+  margin: 150px auto;
+}
+
+#slider-list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0;
+  animation: slide 15s linear infinite;
+}
+#slider-list img {
+  width: 400px;
+  height: 200px;
+  margin: 0;
+}
+
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  10% {
+    left: 0px;
+  }
+  35% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  75% {
+    left: -200%;
+  }
+  85% {
+    left: -200%;
+  }
+  90% {
+    left: 0px;
+  }
+}
+
+.popup-overlay.active {
+  visibility: visible;
+}
+
+.popup-content.active {
+  visibility: visible;
+}
+
+.firstItemDescription,
+.secondItemDescription,
+.thirdItemDescription,
+.fourthItemDescription,
+.fifthItemDescription {
+  border: 2px solid black;
+  padding-top: 100px;
+}
+
+.fifthItemPic,
+.fourthItemPic,
+.thirdItemPic,
+.secondItemPic,
+.firstItemPic {
+  border: 2px solid black;
+  padding-top: 100px;
+}
+.footer {
+  background-color: rgb(238, 238, 186) !important;
+  color: black;
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+th {
+  font-size : 30px;
+}
+.firstTh {
+  margin-left : 300px;
+}
+.about {
+  text-align: center;
+}
+
+.select{
+text-align: center;}
